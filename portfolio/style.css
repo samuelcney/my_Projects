@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+        
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(255, 255, 255);
+            font-family: "League Spartan";  
+        }
+
+        header{
+            width: 100%;
+            background-image: url("/imgs/25336.jpg");
+            background-size: cover;
+            height: 70px;
+            border-bottom: 3px solid rgb(26, 255, 0);
+            border-top: 3px solid rgb(26, 255, 0);
+        }
+
+        footer{
+            width: 100%;
+            background-image: url("/imgs/25336.jpg");
+            background-size: cover;
+            height: 70px;
+            border-bottom: 3px solid rgb(26, 255, 0);
+        }
+
+        .main1{
+            display: flex;
+            flex-wrap: wrap;
+            border-bottom: rgb(26, 255, 0) 3px solid;
+            height: 910px;
+        }
+        
+        .content_one{
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            justify-items: center;
+            width: 50%;
+            background-color: rgb(255, 255, 255);
+            height: 600px;
+            margin-top: 50px;
+        }
+
+        .content_two{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+            background-color: rgb(255, 255, 255);
+            max-height: 600px;
+            width: 50%;
+            padding-bottom: 70px;
+        }
+
+        .content_one>h1{
+            border-right: 3px solid rgb(26, 255, 0);
+            text-align: center;
+            font-size: 160px;
+            font-weight: 300;
+            margin: 0px 0px 0px 0px;        
+        }
+
+        .content_one>.title_2{
+            border-right: 3px solid rgb(26, 255, 0);
+            text-align: center;
+            font-size: 100px;
+            font-weight: 200;
+            margin: 0px 0px 0px 0px;
+        }
+
+        .fadeOut{
+            color: rgb(26, 255, 0);
+            animation: fade 1.2s infinite alternate;
+        }
+
+        @keyframes fade{
+            0%{
+                opacity: 1;
+            }
+            50%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+
+        .content_one>h2{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 400;
+            margin: 30px 0px 0px 50px
+        }
+
+        .content_one>.subtitle_2{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 400;
+            margin: 30px 0px 100px 50px
+        }
+
+        .subtitle_2>li{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+        }
+
+        .subtitle_2>li>img{
+            width: 35px;
+            margin-right: 5px;
+        }
+
+        .subtitle_2>li>a{
+            text-decoration: none;
+            color: black;
+            font-weight: 300;
+            padding-top: 5px;
+            border-bottom: 2px solid transparent;
+        }
+
+        .subtitle_2>li>a:hover{
+            border-bottom: 2px solid rgb(26, 255, 0) ;
+            transition: 0.5s;
+        }
+        
+
+        .cor{
+            color: rgb(26, 255, 0);
+        }
+
+        .content_two>img{
+            width: 80%;
+            height: 100%;   
+            margin: 100px 0px 10px 40px;
+        }
+
+        .content_two>.toplangs{
+            width: 600px;
+            height: 100%;   
+            margin: 10px 0px 0px 90px;
+        }
+
+        .icon{
+            margin: 20px;
+        }
