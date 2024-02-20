@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="corpo">
+            <div class="calculadora">
+                <input type="text" id="display" readonly>
+                <div id="powerButton" onclick="powerB()"></div>
+                <div class="botoes">
+                    <button onclick="exibirDisplay('7')">7</button>
+                    <button onclick="exibirDisplay('8')">8</button>
+                    <button onclick="exibirDisplay('9')">9</button>
+                    
+                    <button onclick="exibirDisplay('4')">4</button>
+                    <button onclick="exibirDisplay('5')">5</button>
+                    <button onclick="exibirDisplay('6')">6</button>
+
+                    <button onclick="exibirDisplay('1')">1</button>
+                    <button onclick="exibirDisplay('2')">2</button>
+                    <button onclick="exibirDisplay('3')">3</button>
+                    <button onclick="clearDisplay()">C</button>
+                    <button onclick="exibirDisplay('0')">0</button>
+                    <button onclick="calcularResultado()">=</button>
+                </div>
+
+                <div class="operadores">
+                    <button  onclick="exibirDisplay('+')">+</button>
+                    <button onclick="exibirDisplay('-')">-</button>
+                    <button onclick="exibirDisplay('*')">*</button>
+                    <button onclick="exibirDisplay('/')">/</button>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.1.0/math.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
